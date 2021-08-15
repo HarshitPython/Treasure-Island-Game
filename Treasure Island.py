@@ -13,6 +13,8 @@ if a == "left":
         #If user choose red.
         if c == "red":
             print("It is room full of fire. Game Over.")
+        
+        #If user choose yellow.
         elif c == "yellow":
             print("You found the treaure. You Win the game.")
         elif c == "blue":
