@@ -9,6 +9,8 @@ if a == "left":
     b = input('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ?\n').lower()
     if b == "wait":
         c = input('You arrive at the island unharmed. There is a house with three doors. One "red", one "yellow", one "blue". Which colour do you choose ?\n').lower()
+        
+        #If user choose red.
         if c == "red":
             print("It is room full of fire. Game Over.")
         elif c == "yellow":
