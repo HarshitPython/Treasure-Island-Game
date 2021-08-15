@@ -4,6 +4,7 @@ print("Your mission is to find the Treasure Island")
 #Ask in which direction user want to go.
 a = input('In which direction you want to go? "left" or "right" \n ').lower()
 
+#If user said left.
 if a == "left":
     b = input('You have come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ?\n').lower()
     if b == "wait":
